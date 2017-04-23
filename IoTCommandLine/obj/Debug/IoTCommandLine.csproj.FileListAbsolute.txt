@@ -1,0 +1,14 @@
+D:\visual studio 2015\Projects\IoTHub Course\IoTCommandLine\bin\Debug\IoTCommandLine.dll
+D:\visual studio 2015\Projects\IoTHub Course\IoTCommandLine\bin\Debug\IoTCommandLine.pdb
+D:\visual studio 2015\Projects\IoTHub Course\IoTCommandLine\obj\Debug\IoTCommandLine.dll
+D:\visual studio 2015\Projects\IoTHub Course\IoTCommandLine\obj\Debug\IoTCommandLine.pdb
+D:\visual studio 2015\Projects\IoTHub Course\IoTCommandLine\obj\Debug\IoTCommandLine.csprojResolveAssemblyReference.cache
+D:\IoT\IoTHub Course\source\IoTCommandLine\bin\Debug\IoTCommandLine.dll
+D:\IoT\IoTHub Course\source\IoTCommandLine\bin\Debug\IoTCommandLine.pdb
+D:\IoT\IoTHub Course\source\IoTCommandLine\obj\Debug\IoTCommandLine.csprojResolveAssemblyReference.cache
+D:\IoT\IoTHub Course\source\IoTCommandLine\obj\Debug\IoTCommandLine.dll
+D:\IoT\IoTHub Course\source\IoTCommandLine\obj\Debug\IoTCommandLine.pdb
+D:\Cloud Academy\Introducing Azure IoTHub\source\IoTCommandLine\bin\Debug\IoTCommandLine.dll
+D:\Cloud Academy\Introducing Azure IoTHub\source\IoTCommandLine\bin\Debug\IoTCommandLine.pdb
+D:\Cloud Academy\Introducing Azure IoTHub\source\IoTCommandLine\obj\Debug\IoTCommandLine.dll
+D:\Cloud Academy\Introducing Azure IoTHub\source\IoTCommandLine\obj\Debug\IoTCommandLine.pdb

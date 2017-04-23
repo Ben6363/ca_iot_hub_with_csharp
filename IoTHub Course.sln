@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoTHubDeviceManager", "IoTHubDeviceManager\IoTHubDeviceManager.csproj", "{35689FBC-5EFF-4294-BF5E-0A50392D21B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoTCommandLine", "IoTCommandLine\IoTCommandLine.csproj", "{34228936-90AA-4DE6-9764-DA6712EF8AB4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{27A7050F-2B7A-4AC5-BF8D-69B653A20F19}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\DeviceRegistry.ps1 = Scripts\DeviceRegistry.ps1
+		Scripts\DeviceService.ps1 = Scripts\DeviceService.ps1
+		Scripts\DeviceSimulator.ps1 = Scripts\DeviceSimulator.ps1
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoTHubDeviceSimulator", "IoTHubDeviceSimulator\IoTHubDeviceSimulator.csproj", "{8E520169-B3D3-4C17-AACD-E1DF1FFBD847}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHubClientSimulator", "EventHubClientSimulator\EventHubClientSimulator.csproj", "{5F029A85-311B-4477-A49B-A22046F394AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventHubProcessor", "EventHubProcessor\EventHubProcessor.csproj", "{F6B03F40-A6C9-4F9F-ACEA-A8DE1FBE7B79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoTHubDeviceService", "IoTHubDeviceService\IoTHubDeviceService.csproj", "{07FD8F59-385A-4F42-9440-9F4B1B61A786}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoTHubDeviceConfiguration", "IoTHubDeviceConfiguration\IoTHubDeviceConfiguration.csproj", "{898225E9-76C4-4A10-9870-380767C47E0D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Features", "Features", "{4F4026F1-666D-460C-9729-AD1B0890513C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{187C669C-214E-4CAE-BD40-67AEADAFE4C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35689FBC-5EFF-4294-BF5E-0A50392D21B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35689FBC-5EFF-4294-BF5E-0A50392D21B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35689FBC-5EFF-4294-BF5E-0A50392D21B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35689FBC-5EFF-4294-BF5E-0A50392D21B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34228936-90AA-4DE6-9764-DA6712EF8AB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34228936-90AA-4DE6-9764-DA6712EF8AB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34228936-90AA-4DE6-9764-DA6712EF8AB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34228936-90AA-4DE6-9764-DA6712EF8AB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E520169-B3D3-4C17-AACD-E1DF1FFBD847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E520169-B3D3-4C17-AACD-E1DF1FFBD847}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E520169-B3D3-4C17-AACD-E1DF1FFBD847}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E520169-B3D3-4C17-AACD-E1DF1FFBD847}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F029A85-311B-4477-A49B-A22046F394AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F029A85-311B-4477-A49B-A22046F394AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F029A85-311B-4477-A49B-A22046F394AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F029A85-311B-4477-A49B-A22046F394AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6B03F40-A6C9-4F9F-ACEA-A8DE1FBE7B79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6B03F40-A6C9-4F9F-ACEA-A8DE1FBE7B79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6B03F40-A6C9-4F9F-ACEA-A8DE1FBE7B79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6B03F40-A6C9-4F9F-ACEA-A8DE1FBE7B79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07FD8F59-385A-4F42-9440-9F4B1B61A786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07FD8F59-385A-4F42-9440-9F4B1B61A786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07FD8F59-385A-4F42-9440-9F4B1B61A786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07FD8F59-385A-4F42-9440-9F4B1B61A786}.Release|Any CPU.Build.0 = Release|Any CPU
+		{898225E9-76C4-4A10-9870-380767C47E0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{898225E9-76C4-4A10-9870-380767C47E0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{898225E9-76C4-4A10-9870-380767C47E0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{898225E9-76C4-4A10-9870-380767C47E0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{35689FBC-5EFF-4294-BF5E-0A50392D21B5} = {4F4026F1-666D-460C-9729-AD1B0890513C}
+		{34228936-90AA-4DE6-9764-DA6712EF8AB4} = {187C669C-214E-4CAE-BD40-67AEADAFE4C0}
+		{5F029A85-311B-4477-A49B-A22046F394AD} = {4F4026F1-666D-460C-9729-AD1B0890513C}
+		{F6B03F40-A6C9-4F9F-ACEA-A8DE1FBE7B79} = {4F4026F1-666D-460C-9729-AD1B0890513C}
+		{898225E9-76C4-4A10-9870-380767C47E0D} = {4F4026F1-666D-460C-9729-AD1B0890513C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8
+	EndGlobalSection
+EndGlobal

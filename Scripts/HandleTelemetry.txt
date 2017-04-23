@@ -1,0 +1,4 @@
+
+Endpoint=sb://[namespace].servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=[key]
+
+Endpoint=sb://iothub-ns-iothubcour-121135-fd958d73fb.servicebus.windows.net/;SharedAccessKeyName=HandleTelemetry;SharedAccessKey=GRqCEtR6Gq/2mtMdpR5tpbzaJd21P2+5EHgbgrMogt4=
